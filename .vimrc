@@ -25,10 +25,6 @@ set incsearch
 " Enable 256 colors
 set t_Co=256
 
-" Enable syntax highlighting & color scheme.
-syntax on
-colorscheme distinguished
-
 " Disable modeline
 set nomodeline
 
@@ -45,3 +41,17 @@ au BufNewFile *.pl s-^-#!/usr/bin/env perl\r\ruse 5.016;\ruse warnings;\ruse aut
 let python_highlight_builtins=1
 au FileType python setlocal expandtab foldmethod=indent shiftwidth=4 softtabstop=4 tabstop=4 autoindent cursorline
 au BufNewFile *.py s-^-#!/usr/bin/env python\r\r\import os\rimport sys\r\rdef hello():\r    print 'Hello %s on %s.' % (os.getlogin(), sys.platform)\r\rif __name__ == '__main__':\r    hello()-
+
+" Go programming enhancements
+" Some Linux distributions set filetype in /etc/vimrc.
+" Clear filetype flags before changing runtimepath to force Vim to
+" reload them.
+filetype off
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
+
+" Enable syntax highlighting & color scheme.
+syntax on
+colorscheme distinguished
