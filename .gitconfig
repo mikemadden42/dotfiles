@@ -1,10 +1,10 @@
 [user]
-        name = Joe Miner
-            email = joe.miner@mst.edu
+	name = Joe Miner
+	email = joe.miner@mst.edu
 [core]
-        editor = vim
+	editor = vim
 [color]
-        status = auto
-            branch = auto
+	status = auto
+	branch = auto
 [push]
 	default = matching
