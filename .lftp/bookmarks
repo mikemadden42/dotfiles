@@ -16,6 +16,7 @@ rhel5   	ftp://ftp.redhat.com/redhat/linux/enterprise/5Client/en/os/SRPMS/
 rhel6   	ftp://ftp.redhat.com/redhat/linux/enterprise/6Workstation/en/os/SRPMS/
 rit     	http://mirror.rit.edu/
 rocks   	http://www.rocksclusters.org/ftp-site/pub/rocks/
+tails   	http://dl.amnesia.boum.org/tails/
 tds     	ftp://mirrors.tds.net/
 utah    	ftp://mirror.cs.utah.edu/
 waterloo	ftp://mirror.csclub.uwaterloo.ca/
