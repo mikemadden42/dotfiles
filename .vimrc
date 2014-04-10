@@ -34,7 +34,7 @@ let perl_fold=1
 let perl_fold_blocks = 1
 let perl_include_pod=1
 au FileType perl setlocal expandtab foldmethod=syntax shiftwidth=4 softtabstop=4 tabstop=4 autoindent cursorline
-au BufNewFile *.pl s-^-#!/usr/bin/env perl\r\ruse 5.016;\ruse warnings;\ruse autodie;\r\r-
+au BufNewFile *.pl s-^-#!/usr/bin/env perl\r\ruse 5.010;\ruse autodie;\ruse strict;\ruse warnings;\r\r-
 
 " Python programming enhancements
 " http://www.aleksa.org/2013/03/python-friendly-vimrc.html

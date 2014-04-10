@@ -5,6 +5,7 @@ columbia	http://mirror.cc.columbia.edu/
 gcc     	ftp://gcc.gnu.org/pub/gcc/
 gigenet 	http://mirrors.gigenet.com/
 isc     	ftp://mirrors.isc.org/pub/
+kali    	http://cdimage.kali.org/
 kernel  	http://mirrors.kernel.org/
 lstn    	http://mirror.lstn.net/
 nrel    	http://developer.nrel.gov/downloads/vagrant-boxes/
