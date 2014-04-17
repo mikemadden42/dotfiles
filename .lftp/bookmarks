@@ -14,6 +14,7 @@ osuosl  	ftp://ftp.osuosl.org/pub/
 rackspace	ftp://mirror.rackspace.com/
 rhel5   	ftp://ftp.redhat.com/redhat/linux/enterprise/5Client/en/os/SRPMS/
 rhel6   	ftp://ftp.redhat.com/redhat/linux/enterprise/6Workstation/en/os/SRPMS/
+rhel7   	ftp://ftp.redhat.com/redhat/rhel/
 rit     	http://mirror.rit.edu/
 rocks   	http://www.rocksclusters.org/ftp-site/pub/rocks/
 tails   	http://dl.amnesia.boum.org/tails/
