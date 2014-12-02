@@ -52,6 +52,9 @@ set runtimepath+=$GOROOT/misc/vim
 filetype plugin indent on
 syntax on
 
+" Gradle programming enhancements
+au BufNewFile,BufRead *.gradle setf groovy
+
 " Enable syntax highlighting & color scheme.
 syntax on
 colorscheme distinguished
