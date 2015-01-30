@@ -1,5 +1,4 @@
 adobe   	ftp://ftp.adobe.com/pub/adobe/reader/
-anl     	ftp://mirror.mcs.anl.gov/pub/
 archive 	ftp://archive.kernel.org/
 columbia	http://mirror.cc.columbia.edu/
 gcc     	ftp://gcc.gnu.org/pub/gcc/
@@ -7,6 +6,8 @@ gigenet 	http://mirrors.gigenet.com/
 isc     	ftp://mirrors.isc.org/pub/
 kali    	http://cdimage.kali.org/
 kernel  	http://mirrors.kernel.org/
+leaseweb	http://mirror.sfo12.us.leaseweb.net/
+linode  	http://mirrors.linode.com/
 lstn    	http://mirror.lstn.net/
 nrel    	http://developer.nrel.gov/downloads/vagrant-boxes/
 nvidia  	ftp://download.nvidia.com/XFree86/
