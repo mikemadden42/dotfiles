@@ -8,3 +8,5 @@
 	branch = auto
 [push]
 	default = matching
+[credential]
+	helper = cache --timeout 28800
