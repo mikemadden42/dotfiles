@@ -16,8 +16,8 @@ set nowrap
 " Enable status line for each window.
 set ruler
 
-" Disable highlighting search matches.
-set nohlsearch 
+" Enable highlighting search matches.
+set hlsearch 
 
 " Enable incremental search.
 set incsearch
