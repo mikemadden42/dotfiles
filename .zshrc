@@ -58,6 +58,7 @@ source $ZSH/oh-my-zsh.sh
 # vi mode
 bindkey -v
 
+export GOPATH=$HOME/go
 export PATH="/opt/local/bin:/opt/local/sbin:/Users/mjmadden/bin:/Users/mjmadden/go/bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
