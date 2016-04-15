@@ -57,4 +57,5 @@ au BufNewFile,BufRead *.gradle setf groovy
 
 " Enable syntax highlighting & color scheme.
 syntax on
+set background=dark
 colorscheme distinguished
