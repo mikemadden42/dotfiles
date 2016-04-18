@@ -1,3 +1,30 @@
+"
+"
+" Configure vundle.
+"
+"
+
+" We also want to turn off the default filetype controls for now because the
+" way that vim caches filetype rules at runtime interferes with the way that
+" vundle " alters the runtime environment. We will change this back later.
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'fatih/vim-go'
+Bundle 'flazz/vim-colorschemes'
+Bundle 'tpope/vim-fugitive'
+
+" Now we can turn our filetype functionality back on.
+filetype plugin indent on
+
+"
+"
+" Add any additional vim settings that we need.
+"
+"
+
 " Disable vi compatibility mode.
 set nocompatible
 
@@ -42,20 +69,7 @@ let python_highlight_builtins=1
 au FileType python setlocal expandtab foldmethod=indent shiftwidth=4 softtabstop=4 tabstop=4 autoindent cursorline
 au BufNewFile *.py s-^-#!/usr/bin/env python\r\r\import os\rimport sys\r\rdef hello():\r    print 'Hello %s on %s.' % (os.getlogin(), sys.platform)\r\rif __name__ == '__main__':\r    hello()-
 
-" Go programming enhancements
-" Some Linux distributions set filetype in /etc/vimrc.
-" Clear filetype flags before changing runtimepath to force Vim to
-" reload them.
-filetype off
-filetype plugin indent off
-set runtimepath+=$GOROOT/misc/vim
-filetype plugin indent on
-syntax on
-
-" Gradle programming enhancements
-au BufNewFile,BufRead *.gradle setf groovy
-
 " Enable syntax highlighting & color scheme.
 syntax on
 set background=dark
-colorscheme distinguished
+colorscheme 256-jungle
