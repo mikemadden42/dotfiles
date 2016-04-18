@@ -12,12 +12,17 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+" Configure Plugins.
 Bundle 'fatih/vim-go'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
 
 " Now we can turn our filetype functionality back on.
 filetype plugin indent on
+
+" vim-airline setup
+set laststatus=2
 
 "
 "
