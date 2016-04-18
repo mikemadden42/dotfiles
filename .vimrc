@@ -30,7 +30,7 @@ set laststatus=2
 "
 "
 
-" Use 4-space tabs & expand tabs to spaces. 
+" Use 4-space tabs & expand tabs to spaces.
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -46,7 +46,7 @@ set nowrap
 set ruler
 
 " Enable highlighting search matches.
-set hlsearch 
+set hlsearch
 
 " Enable incremental search.
 set incsearch

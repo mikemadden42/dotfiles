@@ -1,33 +1,33 @@
 ;; .emacs
-                                                                                
+
 ;;; uncomment this line to disable loading of "default.el" at startup
 ;; (setq inhibit-default-init t)
-                                                                                
+
 ;; turn on font-lock mode
 (when (fboundp 'global-font-lock-mode)
   (global-font-lock-mode t))
-                                                                                
+
 ;; enable visual feedback on selections
 ;(setq transient-mark-mode t)
-                                                                                
+
 ;; default to better frame titles
 (setq frame-title-format
       (concat  "%b - emacs@" (system-name)))
-                                                                                
+
 ;; default to unified diffs
 (setq diff-switches "-u")
-                                                                                
+
 ;; always end a file with a newline
 ;(setq require-final-newline 'query)
-                                                                                
+
 ;; START OF CUSTOMIZATIONS
-                                                                                
+
 ;; Show line-number in the mode line
 (line-number-mode 1)
-                                                                                
+
 ;; Show column-number in the mode line
 (column-number-mode 1)
-                                                                                
+
 ;;
 ;; Emacs normally uses both tabs and spaces to indent lines. If you
 ;; prefer, all indentation can be made from spaces only. To request this,
