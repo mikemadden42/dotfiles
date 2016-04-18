@@ -6,7 +6,7 @@
 
 " We also want to turn off the default filetype controls for now because the
 " way that vim caches filetype rules at runtime interferes with the way that
-" vundle " alters the runtime environment. We will change this back later.
+" vundle alters the runtime environment. We will change this back later.
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
@@ -24,9 +24,6 @@ filetype plugin indent on
 " Add any additional vim settings that we need.
 "
 "
-
-" Disable vi compatibility mode.
-set nocompatible
 
 " Use 4-space tabs & expand tabs to spaces. 
 set tabstop=4
@@ -56,6 +53,7 @@ set t_Co=256
 set nomodeline
 
 " Perl programming enhancements
+" http://www.perlmonks.org/?node_id=540167
 let perl_extended_vars=1
 let perl_fold=1
 let perl_fold_blocks = 1
