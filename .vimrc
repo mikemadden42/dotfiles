@@ -13,6 +13,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Configure Plugins.
+Plugin 'elzr/vim-json'
 Bundle 'fatih/vim-go'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'tpope/vim-fugitive'
