@@ -13,11 +13,12 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Configure Plugins.
-Plugin 'elzr/vim-json'
+Bundle 'elzr/vim-json'
 Bundle 'fatih/vim-go'
 Bundle 'flazz/vim-colorschemes'
+Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline'
 
 " Now we can turn our filetype functionality back on.
 filetype plugin indent on
