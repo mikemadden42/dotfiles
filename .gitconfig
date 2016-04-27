@@ -1,6 +1,6 @@
 [user]
 	name = Joe Miner
-	email = joe.miner@mst.edu
+	email = joe.miner@mst.edu 
 [core]
 	editor = vim
 [color]
@@ -10,3 +10,8 @@
 	default = matching
 [credential]
 	helper = cache --timeout 28800
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
