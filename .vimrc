@@ -19,6 +19,7 @@ Bundle 'flazz/vim-colorschemes'
 Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-fugitive'
 Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
 
 " Now we can turn our filetype functionality back on.
 filetype plugin indent on
@@ -77,4 +78,4 @@ au BufNewFile *.py s-^-#!/usr/bin/env python\r\r\import os\rimport sys\r\rdef he
 " Enable syntax highlighting & color scheme.
 syntax on
 set background=dark
-colorscheme 256-jungle
+colorscheme solarized
