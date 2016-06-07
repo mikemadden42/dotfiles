@@ -13,6 +13,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Configure Plugins.
+Bundle 'ekalinin/dockerfile.vim'
 Bundle 'elzr/vim-json'
 Bundle 'fatih/vim-go'
 Bundle 'flazz/vim-colorschemes'
