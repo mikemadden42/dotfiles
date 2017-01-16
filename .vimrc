@@ -13,10 +13,12 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Configure Plugins.
+Bundle 'bfontaine/brewfile.vim'
 Bundle 'ekalinin/dockerfile.vim'
 Bundle 'elzr/vim-json'
 Bundle 'fatih/vim-go'
 Bundle 'flazz/vim-colorschemes'
+Bundle 'keith/swift.vim'
 Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-fugitive'
 Bundle 'vim-airline/vim-airline'
@@ -79,4 +81,4 @@ au BufNewFile *.py s-^-#!/usr/bin/env python\r\r\import os\rimport sys\r\rdef he
 " Enable syntax highlighting & color scheme.
 syntax on
 set background=dark
-colorscheme solarized
+colorscheme distinguished
