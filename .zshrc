@@ -60,7 +60,7 @@ source $ZSH/oh-my-zsh.sh
 bindkey -v
 
 export GOPATH=$HOME/go
-export PATH="/Users/mjmadden/bin:/Users/mjmadden/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin"
+export PATH="/Users/mjmadden/bin:/Users/mjmadden/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
