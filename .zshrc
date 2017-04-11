@@ -50,7 +50,7 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
-plugins=(git macports rsync)
+plugins=(brew git rsync)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -59,8 +59,10 @@ source $ZSH/oh-my-zsh.sh
 # vi mode
 bindkey -v
 
+export EDITOR=vim
+
 export GOPATH=$HOME/go
-export PATH="/Users/mjmadden/bin:/Users/mjmadden/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/bin:$GOPATH/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
