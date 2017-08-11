@@ -1,4 +1,5 @@
 brew 'astyle'
+brew 'autoconf'
 brew 'awscli'
 brew 'bash'
 brew 'boost'
