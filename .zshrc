@@ -5,10 +5,12 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="clean"
-# ZSH_THEME="dst"
-ZSH_THEME="sonicradish"
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="clean"
+#ZSH_THEME="dst"
+#ZSH_THEME="sonicradish"
+#ZSH_THEME="eastwood"
+ZSH_THEME="pygmalion"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -62,7 +64,7 @@ bindkey -v
 export EDITOR=vim
 
 export GOPATH=$HOME/go
-export PATH="$HOME/bin:$HOME/.cargo/bin:$GOPATH/bin:$PATH"
+export PATH="$HOME/bin:$GOPATH/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
