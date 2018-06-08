@@ -2,7 +2,8 @@
     // Editor settings
     "editor.fontSize": 12,
     "editor.formatOnSave": true,
-    "workbench.colorTheme": "Solarized Dark",
+    "editor.renderWhitespace": "none",
+    "workbench.colorTheme": "Visual Studio Dark",
     // Go settings
     "go.formatTool": "goreturns",
     "go.lintTool": "golint",
@@ -10,14 +11,11 @@
     // Python settings
     "python.formatting.yapfPath": "/usr/local/bin/yapf",
     "python.linting.flake8Path": "/usr/local/bin/flake8",
-    "python.linting.pep8Path": "/usr/local/bin/pep8",
-    "python.linting.prospectorPath": "/usr/local/bin/prospector",
     "python.linting.pylintPath": "/usr/local/bin/pylint",
     "python.formatting.provider": "yapf",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
-    "python.linting.pep8Enabled": true,
-    "python.linting.prospectorEnabled": true,
     "python.linting.pylintEnabled": true,
-    "editor.renderWhitespace": "none"
+    // Disable sending data to MS
+    "telemetry.enableTelemetry": false
 }
