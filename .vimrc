@@ -83,6 +83,6 @@ au BufNewFile *.py s-^-#!/usr/bin/env python\r\r\import os\rimport sys\r\rdef he
 " Enable syntax highlighting & color scheme.
 syntax on
 set background=dark
-" colorscheme distinguished
+colorscheme distinguished
 " let g:solarized_termcolors=256
-colorscheme solarized
+" colorscheme solarized

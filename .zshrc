@@ -64,7 +64,7 @@ bindkey -v
 export EDITOR=vim
 
 export GOPATH=$HOME/go
-export PATH="$HOME/bin:$GOPATH/bin:$PATH"
+export PATH="$HOME/bin:$GOPATH/bin:/usr/local/opt/python/libexec/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

@@ -1,11 +1,11 @@
 {
     // Editor settings
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "none",
     "workbench.colorTheme": "Visual Studio Dark",
     // Go settings
-    "go.formatTool": "goreturns",
+    "go.formatTool": "gofmt",
     "go.lintTool": "golint",
     "go.vetOnSave": "package",
     // Python settings
