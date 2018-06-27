@@ -17,5 +17,9 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": true,
     // Disable sending data to MS
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    // Enable updates
+    "update.channel": "default",
+    "update.enableWindowsBackgroundUpdates": true
 }
