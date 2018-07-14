@@ -21,5 +21,8 @@
     "telemetry.enableCrashReporter": false,
     // Enable updates
     "update.channel": "default",
-    "update.enableWindowsBackgroundUpdates": true
+    "update.enableWindowsBackgroundUpdates": true,
+    // YAML settings
+    "yaml.format.enable": true,
+    "yaml.validate": true
 }

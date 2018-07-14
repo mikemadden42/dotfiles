@@ -40,6 +40,10 @@
 ;;
 (setq-default indent-tabs-mode nil)
 
+;; go mode
+;;(add-to-list 'load-path "/usr/local/go/misc/emacs" t)
+;;(require 'go-mode-load)
+
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
