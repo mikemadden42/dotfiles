@@ -5,7 +5,7 @@
     "editor.renderWhitespace": "none",
     "workbench.colorTheme": "Visual Studio Dark",
     // Go settings
-    "go.formatTool": "gofmt",
+    "go.formatTool": "goimports",
     "go.lintTool": "golint",
     "go.vetOnSave": "package",
     // Python settings
