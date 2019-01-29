@@ -14,6 +14,7 @@ call vundle#rc()
 
 " Configure Plugins.
 Bundle 'bfontaine/brewfile.vim'
+Bundle 'editorconfig/editorconfig-vim' 
 Bundle 'ekalinin/dockerfile.vim'
 Bundle 'elzr/vim-json'
 Bundle 'fatih/vim-go'
