@@ -9,12 +9,12 @@
 " vundle alters the runtime environment. We will change this back later.
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " Configure Plugins.
 Bundle 'bfontaine/brewfile.vim'
-Bundle 'editorconfig/editorconfig-vim' 
+Bundle 'editorconfig/editorconfig-vim'
 Bundle 'ekalinin/dockerfile.vim'
 Bundle 'elzr/vim-json'
 Bundle 'fatih/vim-go'
@@ -80,6 +80,12 @@ au BufNewFile *.pl s-^-#!/usr/bin/env perl\r\ruse 5.010;\ruse autodie;\ruse stri
 let python_highlight_builtins=1
 au FileType python setlocal expandtab foldmethod=indent shiftwidth=4 softtabstop=4 tabstop=4 autoindent cursorline
 au BufNewFile *.py s-^-#!/usr/bin/env python\r\r\import os\rimport sys\r\rdef hello():\r    print 'Hello %s on %s.' % (os.getlogin(), sys.platform)\r\rif __name__ == '__main__':\r    hello()-
+
+" Go programming enhancements
+" let g:go_version_warning = 0
+
+" Jenkins enhancements
+au BufNewFile,BufRead Jenkinsfile setf groovy
 
 " Enable syntax highlighting & color scheme.
 syntax on
