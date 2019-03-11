@@ -8,9 +8,9 @@
 {
     "ensure_newline_at_eof_on_save": true,
     "font_size": 14,
-    "highlight_modified_tabs": false,
+    "highlight_modified_tabs": true,
     "line_numbers": true,
-    "spell_check": false,
+    "spell_check": true,
     "trim_trailing_white_space_on_save": true,
     "translate_tabs_to_spaces": true,
 }
