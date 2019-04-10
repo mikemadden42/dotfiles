@@ -83,6 +83,8 @@ au BufNewFile *.py s-^-#!/usr/bin/env python\r\r\import os\rimport sys\r\rdef he
 
 " Go programming enhancements
 " let g:go_version_warning = 0
+let g:go_fmt_command = "goimports"
+let g:go_fmt_options = "-local=github.com/elastic"
 
 " Jenkins enhancements
 au BufNewFile,BufRead Jenkinsfile setf groovy
