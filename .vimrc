@@ -66,6 +66,10 @@ set t_Co=256
 " Disable modeline
 set nomodeline
 
+" Show whitespace
+set list
+set listchars=tab:‣\ ,trail:·,precedes:«,extends:»,eol:¬
+
 " Perl programming enhancements
 " http://www.perlmonks.org/?node_id=540167
 let perl_extended_vars=1
