@@ -16,3 +16,17 @@
     conflictstyle = diff3
 [mergetool]
     prompt = false
+[alias]
+    br = branch
+    ci = commit
+    cl = clean -fxd
+    co = checkout
+    cob = checkout -b
+    cp = cherry-pick
+    di = diff
+    hist = "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+    lol = "log --graph --decorate --pretty=oneline --abbrev-commit"
+    lola = "log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local"
+    ls = log --stat -m
+    st = status
+    stats = shortlog -n -s --no-merges
