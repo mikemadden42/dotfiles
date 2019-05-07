@@ -62,7 +62,7 @@ source $ZSH/oh-my-zsh.sh
 # vi mode
 bindkey -v
 
-export EDITOR=nvim
+export EDITOR=vim
 
 export GOPATH=$HOME/go
 export PATH="$HOME/bin:$GOPATH/bin:/usr/local/opt/python/libexec/bin:$PATH"
@@ -92,7 +92,7 @@ export PATH="$HOME/bin:$GOPATH/bin:/usr/local/opt/python/libexec/bin:$PATH"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vi="nvim"
-alias vim="nvim"
-alias view="nvim -R"
-alias vimdiff="nvim -d"
+#alias vi="nvim"
+#alias vim="nvim"
+#alias view="nvim -R"
+#alias vimdiff="nvim -d"
