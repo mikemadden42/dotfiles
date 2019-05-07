@@ -21,6 +21,7 @@ Bundle 'fatih/vim-go'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'keith/swift.vim'
 Bundle 'pearofducks/ansible-vim'
+Bundle 'python/black'
 Bundle 'rodjek/vim-puppet'
 Bundle 'rust-lang/rust.vim'
 Bundle 'tpope/vim-fugitive'
@@ -84,6 +85,8 @@ au BufNewFile *.pl s-^-#!/usr/bin/env perl\r\ruse 5.010;\ruse autodie;\ruse stri
 let python_highlight_builtins=1
 au FileType python setlocal expandtab foldmethod=indent shiftwidth=4 softtabstop=4 tabstop=4 autoindent cursorline
 au BufNewFile *.py s-^-#!/usr/bin/env python\r\r\import os\rimport sys\r\rdef hello():\r    print 'Hello %s on %s.' % (os.getlogin(), sys.platform)\r\rif __name__ == '__main__':\r    hello()-
+autocmd BufWritePre *.py execute ':Black'
+
 
 " Go programming enhancements
 " let g:go_version_warning = 0
