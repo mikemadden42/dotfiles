@@ -24,5 +24,5 @@
     "update.enableWindowsBackgroundUpdates": true,
     // YAML settings
     "yaml.format.enable": true,
-    "yaml.validate": true
+    "yaml.validate": true,
 }

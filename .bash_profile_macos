@@ -1,0 +1,12 @@
+# set PATH
+#export PATH=$HOME/bin:$HOME/go/bin:/usr/local/Cellar/python/3.7.0/libexec/bin:$PATH
+export PATH=$HOME/bin:$HOME/go/bin:/usr/local/opt/python/libexec/bin:$PATH
+
+# http://osxdaily.com/2012/02/21/add-color-to-the-terminal-in-mac-os-x/
+# https://natelandau.com/my-mac-osx-bash_profile/
+# enable terminal color
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+# set editor
+export EDITOR=vim
