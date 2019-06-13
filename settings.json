@@ -6,7 +6,7 @@
     "workbench.colorTheme": "Monokai Dimmed",
     // Go settings
     "go.formatTool": "goimports",
-    "go.lintTool": "golint",
+    "go.lintTool": "golangci-lint",
     "go.vetOnSave": "package",
     // Python settings
     "python.formatting.yapfPath": "/usr/local/bin/yapf",
