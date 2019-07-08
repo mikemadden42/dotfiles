@@ -8,6 +8,7 @@
     "go.formatTool": "goimports",
     "go.lintTool": "golangci-lint",
     "go.vetOnSave": "package",
+    "go.useLanguageServer": false,
     // Python settings
     "python.formatting.yapfPath": "/usr/local/bin/yapf",
     "python.linting.flake8Path": "/usr/local/bin/flake8",
@@ -21,8 +22,9 @@
     "telemetry.enableCrashReporter": false,
     // Enable updates
     "update.mode": "default",
-    "update.enableWindowsBackgroundUpdates": true,
     // YAML settings
     "yaml.format.enable": true,
     "yaml.validate": true,
+    // C/C++ settings
+    "C_Cpp.clang_format_style": "Google",
 }
