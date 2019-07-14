@@ -3,7 +3,7 @@
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "none",
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Solarized Dark",
     // Go settings
     "go.formatTool": "goimports",
     "go.lintTool": "golangci-lint",
