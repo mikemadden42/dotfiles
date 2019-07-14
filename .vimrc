@@ -99,6 +99,6 @@ au BufNewFile,BufRead Jenkinsfile setf groovy
 " Enable syntax highlighting & color scheme.
 syntax on
 set background=dark
-colorscheme distinguished
+" colorscheme distinguished
 " let g:solarized_termcolors=256
-" colorscheme solarized
+colorscheme solarized
