@@ -1,16 +1,14 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by syntax-specific settings.
-
-// Sample settings:
-// https://github.com/geerlingguy/mac-dev-playbook/blob/master/files/sublime/Library/Packages/User/Preferences.sublime-settings
-// https://github.com/bahmutov/sublime-3-preferences/blob/master/Preferences.sublime-settings
-
 {
-    "ensure_newline_at_eof_on_save": true,
-    "font_size": 14,
-    "highlight_modified_tabs": true,
-    "line_numbers": true,
-    "spell_check": true,
-    "trim_trailing_white_space_on_save": true,
-    "translate_tabs_to_spaces": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 14,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_numbers": true,
+	"spell_check": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
