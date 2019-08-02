@@ -65,6 +65,8 @@ bindkey -v
 
 export EDITOR=vim
 
+export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
+
 export GOPATH=$HOME/go
 #export PATH="$HOME/bin:$GOPATH/bin:/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="$HOME/bin:$GOPATH/bin:$PATH"
