@@ -8,6 +8,9 @@
     // Go settings
     "go.formatTool": "goimports",
     "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
     "go.vetOnSave": "package",
     "go.useLanguageServer": false,
     // Python settings
