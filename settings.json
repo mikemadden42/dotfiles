@@ -31,5 +31,7 @@
     "yaml.format.enable": true,
     "yaml.validate": true,
     // C/C++ settings
-    "C_Cpp.clang_format_style": "Google"
+    "C_Cpp.clang_format_style": "Google",
+    // Rust settings
+    "rust.clippy_preference": "on"
 }
