@@ -33,5 +33,8 @@
     // C/C++ settings
     "C_Cpp.clang_format_style": "Google",
     // Rust settings
-    "rust.clippy_preference": "on"
+    "rust.clippy_preference": "on",
+    // PowerShell settings
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.useCorrectCasing": true
 }
