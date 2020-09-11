@@ -3,6 +3,7 @@
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "none",
+    "diffEditor.ignoreTrimWhitespace": false,
     // Terminal settings
     "terminal.integrated.fontSize": 14,
     // Go settings
@@ -22,6 +23,7 @@
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": true,
+    "python.showStartPage": false,
     // Disable sending data to MS
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
