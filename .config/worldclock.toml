@@ -1,0 +1,23 @@
+# Local clock
+[[clocks]]
+name = "💻"
+
+# California
+[[clocks]]
+name = "☀️"
+tz = "America/Los_Angeles"
+
+# At home
+[[clocks]]
+name = "🏠"
+tz = "America/Chicago"
+
+# London
+[[clocks]]
+name = "🇬🇧"
+tz = "Europe/London"
+
+# Sydney
+[[clocks]]
+name = "🐨"
+tz = "Australia/Sydney"
