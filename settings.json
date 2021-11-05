@@ -25,9 +25,11 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": true,
     "python.showStartPage": false,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+    ],
     // Disable sending data to MS
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     // Enable updates
     "update.mode": "default",
     // YAML settings
@@ -39,5 +41,5 @@
     "rust.clippy_preference": "on",
     // PowerShell settings
     "powershell.codeFormatting.autoCorrectAliases": true,
-    "powershell.codeFormatting.useCorrectCasing": true
+    "powershell.codeFormatting.useCorrectCasing": true,
 }
