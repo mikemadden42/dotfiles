@@ -28,8 +28,9 @@
     "python.linting.flake8Args": [
         "--max-line-length=120",
     ],
-    // Disable sending data to MS
+    // Disable sending telemetry data
     "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
     // Enable updates
     "update.mode": "default",
     // YAML settings
