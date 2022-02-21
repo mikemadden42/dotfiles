@@ -22,6 +22,11 @@ tz = "UTC"
 name = "🇬🇧"
 tz = "Europe/London"
 
+# London
+[[clocks]]
+name = "🇺🇦"
+tz = "Europe/Kiev"
+
 # Sydney
 [[clocks]]
 name = "🐨"
