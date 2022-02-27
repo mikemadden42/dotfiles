@@ -7,15 +7,25 @@ name = "💻"
 name = "☀️"
 tz = "America/Los_Angeles"
 
-# At home
+# Home
 [[clocks]]
 name = "🏠"
 tz = "America/Chicago"
+
+# UTC
+[[clocks]]
+name = "⏰"
+tz = "UTC"
 
 # London
 [[clocks]]
 name = "🇬🇧"
 tz = "Europe/London"
+
+# London
+[[clocks]]
+name = "🇺🇦"
+tz = "Europe/Kiev"
 
 # Sydney
 [[clocks]]
