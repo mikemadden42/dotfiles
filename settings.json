@@ -17,14 +17,12 @@
     "go.useLanguageServer": true,
     // Python settings
     "python.formatting.blackPath": "/usr/local/bin/black",
-    "python.formatting.yapfPath": "/usr/local/bin/yapf",
     "python.formatting.provider": "black",
     "python.linting.flake8Path": "/usr/local/bin/flake8",
     "python.linting.pylintPath": "/usr/local/bin/pylint",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": true,
-    "python.showStartPage": false,
     "python.linting.flake8Args": [
         "--max-line-length=120",
     ],
