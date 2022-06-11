@@ -49,4 +49,7 @@
     // PowerShell settings
     "powershell.codeFormatting.autoCorrectAliases": true,
     "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+    "powershell.codeFormatting.whitespaceBetweenParameters": true,
+    "powershell.promptToUpdatePowerShell": false,
 }
