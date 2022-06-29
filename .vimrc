@@ -100,6 +100,7 @@ au BufNewFile,BufRead Jenkinsfile setf groovy
 syntax on
 set background=dark
 " colorscheme distinguished
-colorscheme jellybeans
+" colorscheme jellybeans
+colorscheme Tomorrow-Night
 " let g:solarized_termcolors=256
 " colorscheme solarized

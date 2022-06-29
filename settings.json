@@ -4,7 +4,7 @@
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "none",
     "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.colorTheme": "Jellybeans Theme",
+    "workbench.colorTheme": "Tomorrow Night",
     // Terminal settings
     "terminal.integrated.fontSize": 14,
     // Go settings
