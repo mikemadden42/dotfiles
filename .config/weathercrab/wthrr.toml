@@ -1,0 +1,14 @@
+address = 'saint louis, missouri'
+language = 'en_US'
+
+[units]
+temperature = 'fahrenheit'
+speed = 'mph'
+time = 'military'
+precipitation = 'inch'
+
+[gui]
+border = 'rounded'
+color = 'default'
+graph = 'lines'
+greeting = false
