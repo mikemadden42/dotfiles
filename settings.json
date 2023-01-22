@@ -37,8 +37,8 @@
     // C/C++ settings
     "C_Cpp.clang_format_style": "Google",
     // Rust settings
-    "rust-analyzer.checkOnSave.command": "clippy",
-    "rust-analyzer.checkOnSave.extraArgs": [
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.check.extraArgs": [
         "--",
         "-Wclippy::pedantic",
         "-Wrustdoc::private_intra_doc_links",
@@ -52,4 +52,6 @@
     "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
     "powershell.codeFormatting.whitespaceBetweenParameters": true,
     "powershell.promptToUpdatePowerShell": false,
+    // Swift settings
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
 }
