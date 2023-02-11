@@ -42,9 +42,11 @@
         "--",
         "-Wclippy::pedantic",
         "-Wrustdoc::private_intra_doc_links",
+        "-Wrustdoc::broken-intra-doc-links",
         "-Aclippy::single-match-else",
         "-Aclippy::default-trait-access",
-        "-Aclippy::missing-panics-doc"
+        "-Aclippy::missing-panics-doc",
+        "-Wclippy::missing-errors-doc"
     ],
     // PowerShell settings
     "powershell.codeFormatting.autoCorrectAliases": true,
