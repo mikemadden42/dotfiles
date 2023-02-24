@@ -69,7 +69,7 @@ export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
 export GOPATH=$HOME/go
 #export PATH="$HOME/bin:$GOPATH/bin:/usr/local/opt/python/libexec/bin:$PATH"
-export PATH="$HOME/bin:$GOPATH/bin:$HOME/.cargo/bin:/usr/local/sbin:$PATH"
+export PATH="$HOME/bin:$GOPATH/bin:$HOME/.cargo/bin:$HOME/.local/bin:/usr/local/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
