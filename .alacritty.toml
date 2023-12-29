@@ -5,3 +5,6 @@ size = 16.0
 
 [window]
 dimensions = {columns = 100, lines = 36}
+
+[selection]
+save_to_clipboard = true
