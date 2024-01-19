@@ -12,7 +12,8 @@ export ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="pygmalion"
 #ZSH_THEME="sonicradish"
 #ZSH_THEME="garyblessington"
-ZSH_THEME="nox"
+#ZSH_THEME="nox"
+ZSH_THEME="fox"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
