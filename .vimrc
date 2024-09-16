@@ -27,6 +27,7 @@ Bundle 'rust-lang/rust.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'vim-airline/vim-airline'
 Bundle 'vim-airline/vim-airline-themes'
+Bundle 'ziglang/zig.vim'
 
 " Now we can turn our filetype functionality back on.
 filetype plugin indent on
