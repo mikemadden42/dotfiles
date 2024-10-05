@@ -4,7 +4,7 @@
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "none",
     "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.colorTheme": "Zenburn",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     // Terminal settings
     "terminal.integrated.fontSize": 14,
     // Go settings
@@ -19,8 +19,8 @@
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.fixAll": true,
-            "source.organizeImports": true
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
         },
         "editor.defaultFormatter": "charliermarsh.ruff"
     },
