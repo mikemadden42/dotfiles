@@ -103,6 +103,7 @@ set background=dark
 " colorscheme distinguished
 " colorscheme jellybeans
 " colorscheme Tomorrow-Night
-colorscheme zenburn
+" colorscheme zenburn
+colorscheme gruvbox
 " let g:solarized_termcolors=256
 " colorscheme solarized
