@@ -1,5 +1,5 @@
 {
-    "color_scheme": "Packages/zenburn/zenburn.tmTheme",
+    "color_scheme": "gruvbox (Dark) (Hard).sublime-color-scheme",
     "ensure_newline_at_eof_on_save": true,
     "font_size": 14,
     "highlight_modified_tabs": true,
@@ -12,4 +12,5 @@
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
     "theme": "Adaptive.sublime-theme",
+    "index_files": true,
 }
