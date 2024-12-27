@@ -1,2 +1,3 @@
 # ghostty +list-themes
 theme = GruvboxDark
+font-size = 16
