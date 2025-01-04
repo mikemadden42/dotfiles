@@ -1,4 +1,0 @@
-# -L - follow redirect
-# -R - use remote time
-# -O - use remote name
-curl -L -R -O URL
