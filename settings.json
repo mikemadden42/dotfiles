@@ -54,4 +54,15 @@
     "powershell.promptToUpdatePowerShell": false,
     // Swift settings
     "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    // evenBetterToml settings
+    "evenBetterToml.formatter.reorderKeys": true,
+    "evenBetterToml.formatter.alignEntries": true,
+    "evenBetterToml.formatter.arrayTrailingComma": true,
+    "evenBetterToml.formatter.arrayAutoExpand": true,
+    "evenBetterToml.formatter.compactArrays": false,
+    "evenBetterToml.formatter.columnWidth": 100,
+    "evenBetterToml.formatter.indentTables": true,
+    "evenBetterToml.formatter.indentString": "    ",
+    "evenBetterToml.formatter.trailingNewline": true,
+    "evenBetterToml.schema.enabled": true,
 }
