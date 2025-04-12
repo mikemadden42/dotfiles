@@ -1,5 +1,6 @@
 theme = GruvboxDark
-font-size = 16
+font-size = 18
+window-inherit-font-size = false
 # linux
 # copy-on-select = true
 # macOS
