@@ -67,7 +67,12 @@ source $ZSH/oh-my-zsh.sh
 # vi mode
 bindkey -v
 
-export EDITOR=vim
+alias vim='nvim'
+alias vi='nvim'
+alias view='nvim -R'
+alias vimdiff='nvim -d'
+export EDITOR='nvim'
+export VISUAL='nvim'
 
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
