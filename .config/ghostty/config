@@ -1,4 +1,4 @@
-theme = dark:GruvboxDark,light:GruvBoxLight
+theme = dark:GruvboxDark,light:GruvboxLight
 font-family = "Fira Code"
 font-size = 18
 window-inherit-font-size = false
