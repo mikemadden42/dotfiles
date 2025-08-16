@@ -11,7 +11,7 @@ set -gx RIPGREP_CONFIG_PATH $HOME/.ripgreprc
 set -gx QT_QPA_PLATFORM xcb
 
 # PATH configuration
-set -gx PATH $HOME/bin $GOPATH/bin $HOME/rusty-tools $HOME/.cargo/bin $HOME/.local/bin $PATH
+set -gx PATH $HOME/bin $HOME/go/bin $HOME/rusty-tools $HOME/.cargo/bin $HOME/.local/bin $PATH
 
 # Aliases
 alias vim='nvim'
