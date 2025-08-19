@@ -1,26 +1,47 @@
-# Main theme
+# Set the main color scheme/theme
 theme = "gruvbox"
 
 # Editor-wide settings
 [editor]
+# Show absolute line numbers (alternatives: relative, none)
 line-number = "absolute"
+
+# How to display multiple buffers: 'multiple' shows all, alternatives: 'single'
 bufferline = "multiple"
+
+# Enable 24-bit RGB color support
 true-color = true
+
+# Enable mouse interaction
 mouse = true
+
+# Number of lines to scroll with each scroll action
 scroll-lines = 3
+
+# Disable automatic file saving
 auto-save = false
+
+# Add vertical ruler lines at column 80 and 120 for code width guidance
 rulers = [80, 120]
 
+# Define cursor appearances for different editor modes
 [editor.cursor-shape]
-normal = "block"
-insert = "bar"
-select = "underline"
+normal = "block"    # Block cursor in normal mode
+insert = "bar"      # Vertical bar in insert mode
+select = "underline"  # Underline in select mode
 
+# Settings for indentation guides
 [editor.indent-guides]
+# Show indent guides
 render = true
+# Character to use for indent guides (vertical bar)
 character = "▏"
 
+# Language Server Protocol (LSP) settings
 [editor.lsp]
+# Show LSP messages in the status line
 display-messages = true
+# Show inline type hints and other LSP hints
 display-inlay-hints = true
+# Disable automatic signature help popup
 auto-signature-help = false
