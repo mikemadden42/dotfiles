@@ -1,9 +1,9 @@
-theme = dark:GruvboxDark,light:GruvboxLight
+theme = dark:Gruvbox Dark,light:Gruvbox Light
 font-family = "Fira Code"
 font-size = 18
 window-inherit-font-size = false
 # linux
-# copy-on-select = true
+copy-on-select = true
 # macOS
-copy-on-select = clipboard
+# copy-on-select = clipboard
 keybind = global:command+grave_accent=toggle_quick_terminal
