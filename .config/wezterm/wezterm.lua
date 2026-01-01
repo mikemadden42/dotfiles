@@ -7,8 +7,8 @@ config.font_size = 18.0
 
 -- --- COLOR SCHEME (Auto-detect Light/Dark) ---
 local function get_appearance()
-  if wezterm.gui then 
-    return wezterm.gui.get_appearance() 
+  if wezterm.gui then
+    return wezterm.gui.get_appearance()
   end
   return 'Dark'
 end
@@ -27,6 +27,12 @@ config.window_padding = {
   top = 12,
   bottom = 12,
 }
+
+-- Cursor Styling (Kitty-style snappy blink)
+config.default_cursor_style = 'BlinkingBlock'
+config.cursor_blink_rate = 500
+config.cursor_blink_ease_in = 'Constant'
+config.cursor_blink_ease_out = 'Constant'
 
 -- Tab Bar
 config.use_fancy_tab_bar = false
