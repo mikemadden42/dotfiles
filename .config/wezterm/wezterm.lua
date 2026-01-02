@@ -20,7 +20,12 @@ else
 end
 
 -- --- VISUALS (The "Ghostty" Polish) ---
-config.window_background_opacity = 0.92
+config.front_end = "WebGpu"
+config.window_background_opacity = 0.85
+if wezterm.target_triple:find("apple") then
+  config.macos_window_background_blur = 30
+end
+
 config.window_padding = {
   left = 12,
   right = 12,
@@ -46,5 +51,14 @@ config.selection_word_boundary = " \t\n{}[ ]\"'`"
 -- Replicates window-inherit-font-size = false
 -- Prevents window from resizing/snapping when changing font scale
 config.adjust_window_size_when_changing_font_size = false
+
+-- Custom keyboard shortcuts
+config.keys = {
+  {
+    key = 'd',
+    mods = 'CMD|SHIFT',
+    action = wezterm.action.ShowDebugOverlay,
+  },
+}
 
 return config
