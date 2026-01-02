@@ -21,9 +21,14 @@ end
 
 -- --- VISUALS (The "Ghostty" Polish) ---
 config.front_end = "WebGpu"
-config.window_background_opacity = 0.85
+
 if wezterm.target_triple:find("apple") then
+  -- macOS: Optimized for "Frosted Glass" look
+  config.window_background_opacity = 0.85
   config.macos_window_background_blur = 30
+else
+  -- Linux/Windows: Higher opacity for readability without native blur
+  config.window_background_opacity = 0.95
 end
 
 config.window_padding = {
@@ -52,8 +57,9 @@ config.selection_word_boundary = " \t\n{}[ ]\"'`"
 -- Prevents window from resizing/snapping when changing font scale
 config.adjust_window_size_when_changing_font_size = false
 
--- Custom keyboard shortcuts
+-- --- KEYBINDINGS ---
 config.keys = {
+  -- Custom shortcut for Debug Overlay (Check GPU/Metal status)
   {
     key = 'd',
     mods = 'CMD|SHIFT',
