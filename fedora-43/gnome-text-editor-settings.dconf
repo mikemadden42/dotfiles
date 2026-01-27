@@ -1,0 +1,10 @@
+# dconf dump /org/gnome/TextEditor/ > gnome-text-editor-settings.dconf
+# dconf load /org/gnome/TextEditor/ < gnome-text-editor-settings.dconf
+
+[/]
+custom-font='Fira Code 12'
+right-margin-position=uint32 82
+show-line-numbers=true
+show-map=true
+style-scheme='oblivion'
+use-system-font=false

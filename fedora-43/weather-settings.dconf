@@ -1,0 +1,8 @@
+# dconf dump /org/gnome/Weather/ > weather-settings.dconf
+# dconf load /org/gnome/Weather/ < weather-settings.dconf
+
+[/]
+locations=[<(uint32 2, <('St. Louis, Lambert-St. Louis International Airport', 'KSTL', false, [(0.67635871837910255, -1.5773170688665652)], @a(dd) [])>)>]
+window-height=506
+window-maximized=false
+window-width=619

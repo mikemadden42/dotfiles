@@ -1,0 +1,10 @@
+# dconf dump /org/gnome/Ptyxis/ > ptyxis-settings.dconf
+# dconf load /org/gnome/Ptyxis/ < ptyxis-settings.dconf
+
+[/]
+default-profile-uuid='aa3d4663012844f994a3c2aa696fe0cf'
+profile-uuids=['aa3d4663012844f994a3c2aa696fe0cf']
+window-size=(uint32 117, uint32 31)
+
+[Profiles/aa3d4663012844f994a3c2aa696fe0cf]
+palette='Gruvbox'

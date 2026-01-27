@@ -1,0 +1,10 @@
+# dconf dump /org/gnome/nautilus/ > nautilus-settings.dconf
+# dconf load /org/gnome/nautilus/ < nautilus-settings.dconf
+
+[preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+
+[window-state]
+initial-size=(890, 550)
+initial-size-file-chooser=(890, 550)
