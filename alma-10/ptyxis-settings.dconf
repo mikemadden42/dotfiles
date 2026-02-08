@@ -1,0 +1,9 @@
+[/]
+default-profile-uuid='3d2a16b5c0dc2a52360b98466987f7d5'
+font-name='Red Hat Mono Light 16 @wght=300'
+profile-uuids=['3d2a16b5c0dc2a52360b98466987f7d5']
+use-system-font=false
+window-size=(uint32 146, uint32 32)
+
+[Profiles/3d2a16b5c0dc2a52360b98466987f7d5]
+palette='Gruvbox'
