@@ -67,6 +67,12 @@ require("lazy").setup({
     },
     { "tpope/vim-fugitive" },
     {
+        "numToStr/Comment.nvim",
+        config = function()
+            require("Comment").setup()
+        end,
+    },
+    {
         "nvim-tree/nvim-tree.lua",
         version = "*",
         lazy = false,
