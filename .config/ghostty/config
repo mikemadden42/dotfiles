@@ -7,3 +7,4 @@ copy-on-select = true
 # macOS
 # copy-on-select = clipboard
 keybind = global:command+grave_accent=toggle_quick_terminal
+background-opacity = 0.95
