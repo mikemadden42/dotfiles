@@ -1,68 +1,73 @@
 {
-    // Editor settings
-    "editor.fontSize": 14,
+  // Editor settings
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.renderWhitespace": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  // Terminal settings
+  "terminal.integrated.fontSize": 14,
+  // Go settings
+  "go.formatTool": "goimports",
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"],
+  "go.vetOnSave": "package",
+  "go.useLanguageServer": true,
+  // Python settings
+  "[python]": {
     "editor.formatOnSave": true,
-    "editor.renderWhitespace": "none",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.colorTheme": "Gruvbox Dark Hard",
-    // Terminal settings
-    "terminal.integrated.fontSize": 14,
-    // Go settings
-    "go.formatTool": "goimports",
-    "go.lintTool": "golangci-lint",
-    "go.lintFlags": [
-        "--fast"
-    ],
-    "go.vetOnSave": "package",
-    "go.useLanguageServer": true,
-    // Python settings
-    "[python]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.fixAll": "explicit",
-            "source.organizeImports": "explicit"
-        },
-        "editor.defaultFormatter": "charliermarsh.ruff"
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
     },
-    // Disable sending telemetry data
-    "telemetry.telemetryLevel": "off",
-    "redhat.telemetry.enabled": false,
-    // Enable updates
-    "update.mode": "default",
-    // YAML settings
-    "yaml.format.enable": true,
-    "yaml.validate": true,
-    // C/C++ settings
-    "C_Cpp.clang_format_style": "Google",
-    // Rust settings
-    "rust-analyzer.check.command": "clippy",
-    "rust-analyzer.check.extraArgs": [
-        "--",
-        "-Wclippy::pedantic",
-        "-Wrustdoc::private_intra_doc_links",
-        "-Wrustdoc::broken-intra-doc-links",
-        "-Aclippy::single-match-else",
-        "-Aclippy::default-trait-access",
-        "-Aclippy::missing-panics-doc",
-        "-Wclippy::missing-errors-doc"
-    ],
-    // PowerShell settings
-    "powershell.codeFormatting.autoCorrectAliases": true,
-    "powershell.codeFormatting.useCorrectCasing": true,
-    "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
-    "powershell.codeFormatting.whitespaceBetweenParameters": true,
-    "powershell.promptToUpdatePowerShell": false,
-    // Swift settings
-    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
-    // evenBetterToml settings
-    "evenBetterToml.formatter.reorderKeys": true,
-    "evenBetterToml.formatter.alignEntries": true,
-    "evenBetterToml.formatter.arrayTrailingComma": true,
-    "evenBetterToml.formatter.arrayAutoExpand": true,
-    "evenBetterToml.formatter.compactArrays": false,
-    "evenBetterToml.formatter.columnWidth": 100,
-    "evenBetterToml.formatter.indentTables": true,
-    "evenBetterToml.formatter.indentString": "    ",
-    "evenBetterToml.formatter.trailingNewline": true,
-    "evenBetterToml.schema.enabled": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+  },
+  // Disable sending telemetry data
+  "telemetry.telemetryLevel": "off",
+  "redhat.telemetry.enabled": false,
+  // Enable updates
+  "update.mode": "default",
+  // YAML settings
+  "yaml.format.enable": true,
+  "yaml.validate": true,
+  // C/C++ settings
+  "C_Cpp.clang_format_style": "Google",
+  // Rust settings
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.check.extraArgs": [
+    "--",
+    "-Wclippy::pedantic",
+    "-Wrustdoc::private_intra_doc_links",
+    "-Wrustdoc::broken-intra-doc-links",
+    "-Aclippy::single-match-else",
+    "-Aclippy::default-trait-access",
+    "-Aclippy::missing-panics-doc",
+    "-Wclippy::missing-errors-doc",
+  ],
+  // PowerShell settings
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "powershell.codeFormatting.useCorrectCasing": true,
+  "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+  "powershell.codeFormatting.whitespaceBetweenParameters": true,
+  "powershell.promptToUpdatePowerShell": false,
+  // Swift settings
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  // evenBetterToml settings
+  "evenBetterToml.formatter.reorderKeys": true,
+  "evenBetterToml.formatter.alignEntries": true,
+  "evenBetterToml.formatter.arrayTrailingComma": true,
+  "evenBetterToml.formatter.arrayAutoExpand": true,
+  "evenBetterToml.formatter.compactArrays": false,
+  "evenBetterToml.formatter.columnWidth": 100,
+  "evenBetterToml.formatter.indentTables": true,
+  "evenBetterToml.formatter.indentString": "    ",
+  "evenBetterToml.formatter.trailingNewline": true,
+  "evenBetterToml.schema.enabled": true,
 }
