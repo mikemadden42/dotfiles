@@ -1,0 +1,17 @@
+# dconf dump /org/gnome/Ptyxis/ > ptyxis-settings.dconf
+# dconf load /org/gnome/Ptyxis/ < ptyxis-settings.dconf
+
+[/]
+default-profile-uuid='817dd98dbb99f3de2d009e3a69f93a16'
+font-name='Fira Code 14'
+new-tab-position='next'
+profile-uuids=['817dd98dbb99f3de2d009e3a69f93a16']
+use-system-font=false
+window-size=(uint32 169, uint32 43)
+
+[Profiles/817dd98dbb99f3de2d009e3a69f93a16]
+palette='Gruvbox'
+
+[Shortcuts]
+move-next-tab='<Control>Tab'
+move-previous-tab='<Shift><Control>Tab'
