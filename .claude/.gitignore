@@ -1,0 +1,6 @@
+# ~/.claude/ holds both static config and volatile runtime state
+# (projects/, todos/, statsig/, shell-snapshots/, etc.). Track only
+# the config files explicitly whitelisted below.
+*
+!.gitignore
+!settings.json
