@@ -1,0 +1,6 @@
+# dconf dump /org/gnome/desktop/privacy/ > privacy-settings.dconf
+# dconf load /org/gnome/desktop/privacy/ < privacy-settings.dconf
+
+[/]
+remember-recent-files=false
+report-technical-problems=false

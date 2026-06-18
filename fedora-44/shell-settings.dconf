@@ -1,0 +1,5 @@
+# dconf dump /org/gnome/shell/ > shell-settings.dconf
+# dconf load /org/gnome/shell/ < shell-settings.dconf
+
+[/]
+favorite-apps=['chromium-browser.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.TextEditor.desktop', 'org.keepassxc.KeePassXC.desktop', 'org.gnome.Boxes.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop']

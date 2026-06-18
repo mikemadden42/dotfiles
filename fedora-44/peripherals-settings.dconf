@@ -1,0 +1,8 @@
+# dconf dump /org/gnome/desktop/peripherals/ > peripherals-settings.dconf
+# dconf load /org/gnome/desktop/peripherals/ < peripherals-settings.dconf
+
+[keyboard]
+numlock-state=false
+
+[touchpad]
+two-finger-scrolling-enabled=true

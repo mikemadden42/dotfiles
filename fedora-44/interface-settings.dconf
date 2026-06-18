@@ -1,0 +1,9 @@
+# dconf dump /org/gnome/desktop/interface/ > interface-settings.dconf
+# dconf load /org/gnome/desktop/interface/ < interface-settings.dconf
+
+[/]
+accent-color='green'
+color-scheme='prefer-dark'
+gtk-enable-primary-paste=true
+show-battery-percentage=false
+toolkit-accessibility=false
