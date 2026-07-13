@@ -11,7 +11,7 @@
   },
   "editor.renderWhitespace": "none",
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.colorTheme": "Token Dark",
   // Terminal settings
   "terminal.integrated.fontSize": 14,
   // Go settings
