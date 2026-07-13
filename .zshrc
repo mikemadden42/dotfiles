@@ -74,7 +74,7 @@ alias vimdiff='nvim -d'
 export EDITOR='nvim'
 export VISUAL='nvim'
 
-export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
+export RIPGREP_CONFIG_PATH=$HOME/.config/ripgrep/token-dark.ripgreprc
 
 export GOPATH=$HOME/go
 #export PATH="$HOME/bin:$GOPATH/bin:/usr/local/opt/python/libexec/bin:$PATH"

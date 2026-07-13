@@ -7,7 +7,7 @@ fish_vi_key_bindings
 # Environment variables
 set -gx EDITOR nvim
 set -gx VISUAL nvim
-set -gx RIPGREP_CONFIG_PATH $HOME/.ripgreprc
+set -gx RIPGREP_CONFIG_PATH $HOME/.config/ripgrep/token-dark.ripgreprc
 set -gx QT_QPA_PLATFORM xcb
 
 # PATH configuration
