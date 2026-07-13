@@ -19,12 +19,13 @@ vim.opt.rtp:prepend(lazypath)
 -- Plugin configuration
 require("lazy").setup({
     {
-        "ellisonleao/gruvbox.nvim",
+        "token",
+        dir = vim.fn.expand("~/src/token"),
         priority = 1000,
         config = function()
             vim.opt.background = "dark"
             -- vim.opt.background = "light"
-            vim.cmd.colorscheme("gruvbox")
+            vim.cmd.colorscheme("token")
         end,
     },
     {
@@ -33,7 +34,7 @@ require("lazy").setup({
         config = function()
             require("lualine").setup({
                 options = {
-                    theme = "gruvbox",
+                    theme = "token",
                     icons_enabled = true,
                     component_separators = { left = "", right = "" },
                     section_separators = { left = "", right = "" },
