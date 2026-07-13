@@ -1,0 +1,4 @@
+# bat configuration
+--theme=auto:system
+--theme-dark="token-dark"
+--theme-light="token-light"
