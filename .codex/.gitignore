@@ -1,0 +1,5 @@
+# Ignore everything in .codex/ by default (sessions, auth, logs, history)...
+*
+# ...except the files we intentionally track.
+!.gitignore
+!config.toml
