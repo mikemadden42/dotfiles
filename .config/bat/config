@@ -1,4 +1,5 @@
 # bat configuration
+# Token colorscheme (classic appearance), following the system light/dark mode.
 --theme=auto:system
---theme-dark="token-dark"
---theme-light="token-light"
+--theme-dark=token-dark
+--theme-light=token-light
