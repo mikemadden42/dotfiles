@@ -76,9 +76,20 @@ export VISUAL='nvim'
 
 export RIPGREP_CONFIG_PATH=$HOME/.config/ripgrep/token-dark.ripgreprc
 
+# Follow the system light/dark appearance, matching bat and ghostty. Resolved at
+# startup only, so toggling appearance applies to new shells. Anything that is
+# not macOS-in-light-mode gets the dark variant.
+_token_variant=dark
+if [[ "$OSTYPE" == darwin* ]] && ! defaults read -g AppleInterfaceStyle &>/dev/null; then
+  _token_variant=light
+fi
+[ -f "$HOME/.config/fzf/token-$_token_variant.zsh" ] && source "$HOME/.config/fzf/token-$_token_variant.zsh"
+[ -f "$HOME/.config/zsh/token-$_token_variant.zsh" ] && source "$HOME/.config/zsh/token-$_token_variant.zsh"
+unset _token_variant
+
 export GOPATH=$HOME/go
-#export PATH="$HOME/bin:$GOPATH/bin:/usr/local/opt/python/libexec/bin:$PATH"
-export PATH="$HOME/bin:$GOPATH/bin:$HOME/.cargo/bin:$HOME/.local/bin:/usr/local/sbin:$PATH"
+[ -f "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
+export PATH="$HOME/bin:$GOPATH/bin:$HOME/.local/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
