@@ -1,5 +1,7 @@
 {
-    "color_scheme": "gruvbox (Dark) (Hard).sublime-color-scheme",
+    "color_scheme": "auto",
+    "dark_color_scheme": "Packages/User/token-dark.sublime-color-scheme",
+    "light_color_scheme": "Packages/User/token-light.sublime-color-scheme",
     "ensure_newline_at_eof_on_save": true,
     "font_size": 14,
     "highlight_modified_tabs": true,
