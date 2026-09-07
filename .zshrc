@@ -83,9 +83,9 @@ _token_variant=dark
 if [[ "$OSTYPE" == darwin* ]] && ! defaults read -g AppleInterfaceStyle &>/dev/null; then
   _token_variant=light
 fi
+
+# fzf token theme (appends token colors to FZF_DEFAULT_OPTS)
 [ -f "$HOME/.config/fzf/token-$_token_variant.zsh" ] && source "$HOME/.config/fzf/token-$_token_variant.zsh"
-[ -f "$HOME/.config/zsh/token-$_token_variant.zsh" ] && source "$HOME/.config/zsh/token-$_token_variant.zsh"
-unset _token_variant
 
 export GOPATH=$HOME/go
 [ -f "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
@@ -120,3 +120,9 @@ export PATH="$HOME/bin:$GOPATH/bin:$HOME/.local/bin:$PATH"
 #alias vim="nvim"
 #alias view="nvim -R"
 #alias vimdiff="nvim -d"
+
+# token zsh shell colors (ls, completion, selection, syntax-highlight styles)
+# Loaded last so oh-my-zsh plugin styles are already in place; inert sections
+# are harmless. Uses the variant resolved above.
+[ -f "$HOME/.config/zsh/token-$_token_variant.zsh" ] && source "$HOME/.config/zsh/token-$_token_variant.zsh"
+unset _token_variant
