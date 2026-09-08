@@ -1,5 +1,9 @@
 {
   "model": "opus",
-  "autoUpdatesChannel": "stable",
-  "theme": "dark"
+  "autoUpdatesChannel": "latest",
+  "tui": "fullscreen",
+  "theme": "dark",
+  "inputNeededNotifEnabled": false,
+  "agentPushNotifEnabled": false,
+  "awaySummaryEnabled": false
 }
