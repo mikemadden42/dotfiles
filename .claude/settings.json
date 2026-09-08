@@ -1,8 +1,9 @@
 {
   "model": "opus",
+  "effortLevel": "medium",
   "autoUpdatesChannel": "latest",
   "tui": "fullscreen",
-  "theme": "dark",
+  "theme": "dark-ansi",
   "inputNeededNotifEnabled": false,
   "agentPushNotifEnabled": false,
   "awaySummaryEnabled": false
